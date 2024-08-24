@@ -27,7 +27,7 @@ export default {
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+  <h1 class="text-3xl font-bold">{{ title }}</h1>
   <AppHeroSC />
   <AppHeaderSC />
 </template>

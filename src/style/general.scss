@@ -1,5 +1,8 @@
 @use "./subStyle/variable.scss" as *;
 @use "./subStyle/mixins.scss" as *;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 // GOOGLE FONT
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
@@ -22,8 +25,8 @@ body {
     font-weight: 600;
   }
   // prova
-  background-color: $color-text-primary;
   li {
+    background-color: $color-text-primary;
     list-style-type: none;
     a {
       text-decoration: none;

@@ -27,7 +27,7 @@ export default {
 </script>
 
 <template>
-  <div class="bg">
+  <div class="bg text-xl">
     <div class="container py-5">
       <div class="row text-center">{{ title }}</div>
     </div>
